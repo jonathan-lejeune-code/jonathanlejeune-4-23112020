@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: 0;
 }
 
 .b-parallax {
@@ -133,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:black;
 }
 
 .d-bloc .a-btn:hover,
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -703,6 +704,8 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
+
 
 h2 {
     font-size: 22px;
@@ -736,7 +739,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -775,7 +778,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#FFFFFF!important;
+    position: relative;
+    z-index: 5;
 }
 
 .btn-atomic-tangerine {
