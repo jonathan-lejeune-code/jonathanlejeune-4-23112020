@@ -587,6 +587,10 @@ a[data-lightbox]:hover img {
     bottom: 5px;
 }
 
+cite{
+    color: #000000;
+}
+
 .close-lightbox {
     color: #FFF;
     font-size: 30px;
