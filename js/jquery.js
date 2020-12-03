@@ -652,7 +652,7 @@ var i,
 		"needsContext": nouveau RegExp ("^" + espace +
 			"* [> + ~] |: (pair | impair | eq | gt | lt | nième | premier | dernier) (?: \\ (" + espace +
 			"* ((?: - \\ d)? \\ d *)" + espace + "* \\) |) (? = [^ -] | $)", "i")
-	},
+	}
 
 	rhtml = / HTML $ / i,
 	rinputs = / ^ (?: input | select | textarea | button) $ / i,
