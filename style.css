@@ -196,7 +196,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: #000000;
 }
 
 .d-bloc .panel button:hover,
@@ -587,7 +587,7 @@ a[data-lightbox]:hover img {
     bottom: 5px;
 }
 
-cite{
+.pdg{
     color: #000000;
 }
 
