@@ -1,0 +1,11 @@
+User-agent:*
+sitemap:https://jonathan-lejeune-code.github.io/jonathanlejeune-4-23112020-custom/
+allow:/*
+
+user-agent:Googlebot
+Disallow: /img
+
+User-agent: googlebot-image
+allow: /img
+
+sitemap:C:\Users\jojo2\Documents\dossier dev web\Openclassroom_\projet 4\site SEO\sitemap.xml
